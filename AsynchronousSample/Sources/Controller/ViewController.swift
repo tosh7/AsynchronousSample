@@ -16,7 +16,7 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        let imageData: Data = getImage.getImageDataFromWeb()
+        imageView.image = UIImage(data: imageData)
     }
 }
-

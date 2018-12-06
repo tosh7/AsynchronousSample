@@ -18,14 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpu-y5-qaL">
-                                <rect key="frame" x="67" y="152" width="241" height="240"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vpu-y5-qaL">
+                                <rect key="frame" x="67" y="152" width="241" height="254"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vpu-y5-qaL" secondAttribute="trailing" constant="67" id="lUh-LY-Lo0"/>
                             <constraint firstItem="Vpu-y5-qaL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lox-vX-kui"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vpu-y5-qaL" secondAttribute="bottom" constant="372" id="tP5-4O-n9C"/>
+                            <constraint firstItem="Vpu-y5-qaL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="ugf-rH-cEX"/>
                             <constraint firstItem="Vpu-y5-qaL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="x8s-p3-xdm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
